@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+}
+.main-div{
+    background: rgb(36,36,36);
+    background: linear-gradient(90deg, rgba(36,36,36,1) 0%, rgba(238,238,238,1) 100%, rgba(0,212,255,1) 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+}
+.form-body{
+    flex-grow: 2;
+    flex-direction: column;
+    display:flex;
+}
+.main-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.some-text{
+    font-family: 'Skranji', cursive;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.input-label{
+    font-family: 'Skranji', cursive;
+    font-size: 1.2vw;
+    -webkit-text-stroke: 0.003vh #F2668B;
+    
+}
+
+.main-wrapper{
+    width: 100%;
+}
+
+.btn{
+    display: inline-block;
+    padding:0.35vh 1.2vh;
+    border:0.1vh solid #F2668B;
+    width: 9vw;
+    height: 2vw;
+    font-family: 'Skranji', cursive;
+    align-self: center;
+    margin: 2vw;
+}
+
+.btn:hover{
+    transition: 0.7s;
+    color: #F2668B;
+}
+.btn:focus{
+    transition: 1.7s;
+    border-color: #F2668B;
+}
+
+.viking-image{
+    font-family: 'Skranji', cursive;
+    flex-grow: 1;
+    max-width: 88vh;
+}
+
+.odin-wrapper{
+    display:flex;
+    justify-content:center;
+    position: absolute;  
+    background:white;
+    opacity: 70%;
+    left: 0;
+    bottom: 15%;   
+    width: 88vh; 
+    max-height: 20vh;
+}
+
+.odin-logo{
+    max-width: 88vh;
+    max-height: 20vh;
+}
+
+.odin-text{
+    color: #F2668B;
+    align-self: center;
+    font-family: 'Skranji', cursive;
+    font-size: 10vh;
+}
+
+.left-wrapper{
+    position:static;
+    top: 0;
+    left: 0;
+}
+
+.undefeatable{
+    color: #F2668B;
+}
+
+.input-fields{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center stretch;
+}
+
+.btn-text{
+    max-height: 2vw;
+    max-width: 6vw;
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap:5vw;
+}
+
+.el-input:focus{
+    outline: none !important;
+    background-color: #F2668B;
+    transition: 0.8s;
+    caret-color: beige;
+}
